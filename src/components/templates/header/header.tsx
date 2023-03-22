@@ -13,7 +13,7 @@ export const Header = () => {
       <nav>
         <Container className="flex items-center justify-between">
           <Link href="/" title={t('common.homepage')}>
-            DC
+            <span className="text-lg font-bold">DC</span>
           </Link>
           <LanguageSelector />
         </Container>
